@@ -1,0 +1,558 @@
+[
+    {
+        "_id": "64a446eea6c255e608b0f652",
+        "applicationId": "uieditor-9030",
+        "slug": "Media actions",
+        "Page": {
+            "name": "Media actions",
+            "layouts": [
+                {
+                    "_id": "64a446eea6c255e608b0f653",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 1224,
+                        "snapColumns": 64,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 1020,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "detachFromLayout": true,
+                        "minHeight": 1030,
+                        "dynamicBindingPathList": [],
+                        "parentColumnSpace": 1,
+                        "leftColumn": 0,
+                        "children": [
+                            {
+                                "isVisible": true,
+                                "backgroundColor": "#FFFFFF",
+                                "widgetName": "Container2",
+                                "containerStyle": "card",
+                                "borderColor": "transparent",
+                                "borderWidth": "0",
+                                "borderRadius": "0",
+                                "boxShadow": "NONE",
+                                "animateLoading": true,
+                                "children": [
+                                    {
+                                        "isVisible": true,
+                                        "widgetName": "Canvas4",
+                                        "version": 1,
+                                        "detachFromLayout": true,
+                                        "type": "CANVAS_WIDGET",
+                                        "hideCard": true,
+                                        "displayName": "Canvas",
+                                        "key": "zn2gjknp5o",
+                                        "containerStyle": "none",
+                                        "canExtend": false,
+                                        "children": [
+                                            {
+                                                "isVisible": true,
+                                                "text": "Download media file",
+                                                "fontSize": "HEADING1",
+                                                "fontStyle": "BOLD",
+                                                "textAlign": "LEFT",
+                                                "textColor": "#231F20",
+                                                "truncateButtonColor": "#FFC13D",
+                                                "widgetName": "Text1",
+                                                "shouldTruncate": false,
+                                                "overflow": "NONE",
+                                                "version": 1,
+                                                "animateLoading": true,
+                                                "type": "TEXT_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Text",
+                                                "key": "c7oe3i6vf7",
+                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                "widgetId": "i9opj7q9qw",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 15.16064453125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 0,
+                                                "bottomRow": 5,
+                                                "parentId": "9k4sswbcrk",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": []
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "widgetName": "Divider1",
+                                                "orientation": "horizontal",
+                                                "capType": "nc",
+                                                "capSide": 0,
+                                                "strokeStyle": "solid",
+                                                "dividerColor": "#EBEBEB",
+                                                "thickness": 2,
+                                                "version": 1,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "type": "DIVIDER_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Divider",
+                                                "key": "nnpz4g1fzz",
+                                                "iconSVG": "/static/media/icon.cbe8f608.svg",
+                                                "widgetId": "k4tdyut6yh",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 15.16064453125,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 5,
+                                                "bottomRow": 9,
+                                                "parentId": "9k4sswbcrk"
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "shouldScrollContents": false,
+                                                "widgetName": "Tabs1",
+                                                "animateLoading": true,
+                                                "tabsObj": {
+                                                    "tab1": {
+                                                        "label": "image",
+                                                        "id": "tab1",
+                                                        "widgetId": "8vk0pzx8tw",
+                                                        "isVisible": true,
+                                                        "index": 0
+                                                    },
+                                                    "tab2": {
+                                                        "label": "video",
+                                                        "id": "tab2",
+                                                        "widgetId": "miwxvg38us",
+                                                        "isVisible": true,
+                                                        "index": 1
+                                                    }
+                                                },
+                                                "shouldShowTabs": false,
+                                                "defaultTab": "{{main.store.image.includes('.png') ? 'image' : main.store.image.includes('.jpeg') ? 'image' : main.store.image.includes('.svg') ? 'image' :main.store.image.includes('.svg') ? 'image' : 'video'}}",
+                                                "version": 3,
+                                                "type": "TABS_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Tabs",
+                                                "key": "vzxs44t80s",
+                                                "iconSVG": "/static/media/icon.74a6d653.svg",
+                                                "isCanvas": true,
+                                                "widgetId": "vhz11felie",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 13,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 38,
+                                                "rightColumn": 64,
+                                                "topRow": 9,
+                                                "bottomRow": 37,
+                                                "parentId": "9k4sswbcrk",
+                                                "children": [
+                                                    {
+                                                        "isVisible": true,
+                                                        "widgetName": "Canvas2",
+                                                        "version": 1,
+                                                        "detachFromLayout": true,
+                                                        "type": "CANVAS_WIDGET",
+                                                        "hideCard": true,
+                                                        "displayName": "Canvas",
+                                                        "key": "zn2gjknp5o",
+                                                        "canExtend": true,
+                                                        "isDisabled": false,
+                                                        "shouldScrollContents": false,
+                                                        "tabId": "tab1",
+                                                        "tabName": "image",
+                                                        "children": [
+                                                            {
+                                                                "isVisible": true,
+                                                                "defaultImage": "",
+                                                                "imageShape": "RECTANGLE",
+                                                                "maxZoomLevel": 8,
+                                                                "enableRotation": false,
+                                                                "enableDownload": false,
+                                                                "objectFit": "contain",
+                                                                "image": "{{main.env.nr}}/files?file={{main.store.image}}",
+                                                                "widgetName": "Image1",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "IMAGE_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Image",
+                                                                "key": "q5t1b1glu1",
+                                                                "iconSVG": "/static/media/icon.52d8fb96.svg",
+                                                                "widgetId": "k7an3gsd5l",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 4.96875,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 0,
+                                                                "rightColumn": 64,
+                                                                "topRow": 4,
+                                                                "bottomRow": 26,
+                                                                "parentId": "8vk0pzx8tw",
+                                                                "dynamicBindingPathList": [
+                                                                    {
+                                                                        "key": "image"
+                                                                    }
+                                                                ],
+                                                                "dynamicTriggerPathList": []
+                                                            },
+                                                            {
+                                                                "isVisible": true,
+                                                                "iconName": "duplicate",
+                                                                "borderRadius": "CIRCLE",
+                                                                "boxShadow": "NONE",
+                                                                "buttonColor": "#2E3D4980",
+                                                                "buttonVariant": "TERTIARY",
+                                                                "isDisabled": false,
+                                                                "widgetName": "IconButton1",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "ICON_BUTTON_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Icon Button",
+                                                                "key": "y4k16iqrtb",
+                                                                "iconSVG": "/static/media/icon.1a0c634a.svg",
+                                                                "widgetId": "oghp0ngzob",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 3.5087890625,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 55,
+                                                                "rightColumn": 63,
+                                                                "topRow": 0,
+                                                                "bottomRow": 4,
+                                                                "parentId": "8vk0pzx8tw",
+                                                                "dynamicBindingPathList": [],
+                                                                "dynamicTriggerPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ],
+                                                                "onClick": "{{copyToClipboard(main.env.nr + '/files?file=' + main.store.image); showAlert('Copied link!', 'info')}}",
+                                                                "dynamicPropertyPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "minHeight": 400,
+                                                        "widgetId": "8vk0pzx8tw",
+                                                        "renderMode": "CANVAS",
+                                                        "isLoading": false,
+                                                        "parentColumnSpace": 1,
+                                                        "parentRowSpace": 1,
+                                                        "leftColumn": 0,
+                                                        "rightColumn": 312,
+                                                        "topRow": 0,
+                                                        "bottomRow": 390,
+                                                        "parentId": "vhz11felie",
+                                                        "dynamicBindingPathList": [],
+                                                        "dynamicTriggerPathList": []
+                                                    },
+                                                    {
+                                                        "isVisible": true,
+                                                        "widgetName": "Canvas3",
+                                                        "version": 1,
+                                                        "detachFromLayout": true,
+                                                        "type": "CANVAS_WIDGET",
+                                                        "hideCard": true,
+                                                        "displayName": "Canvas",
+                                                        "key": "zn2gjknp5o",
+                                                        "canExtend": true,
+                                                        "isDisabled": false,
+                                                        "shouldScrollContents": false,
+                                                        "tabId": "tab2",
+                                                        "tabName": "video",
+                                                        "children": [
+                                                            {
+                                                                "isVisible": true,
+                                                                "widgetName": "Video1",
+                                                                "url": "{{main.env.nr}}/files?file={{main.store.image}}",
+                                                                "autoPlay": false,
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "VIDEO_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Video",
+                                                                "key": "26x0uvze90",
+                                                                "iconSVG": "/static/media/icon.39c2d696.svg",
+                                                                "widgetId": "pcfqd20wiv",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 13,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 0,
+                                                                "rightColumn": 64,
+                                                                "topRow": 4,
+                                                                "bottomRow": 26,
+                                                                "parentId": "miwxvg38us",
+                                                                "dynamicBindingPathList": [
+                                                                    {
+                                                                        "key": "url"
+                                                                    }
+                                                                ],
+                                                                "dynamicTriggerPathList": []
+                                                            },
+                                                            {
+                                                                "isVisible": true,
+                                                                "iconName": "duplicate",
+                                                                "borderRadius": "CIRCLE",
+                                                                "boxShadow": "NONE",
+                                                                "buttonColor": "#2E3D4980",
+                                                                "buttonVariant": "TERTIARY",
+                                                                "isDisabled": false,
+                                                                "widgetName": "IconButton2",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "ICON_BUTTON_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Icon Button",
+                                                                "key": "y4k16iqrtb",
+                                                                "iconSVG": "/static/media/icon.1a0c634a.svg",
+                                                                "widgetId": "y5dhvcvhnx",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 3.5087890625,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 55,
+                                                                "rightColumn": 63,
+                                                                "topRow": 0,
+                                                                "bottomRow": 4,
+                                                                "parentId": "miwxvg38us",
+                                                                "dynamicBindingPathList": [],
+                                                                "dynamicTriggerPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ],
+                                                                "onClick": "{{copyToClipboard(main.env.nr + '/files?file=' + main.store.image); showAlert('Copied link!', 'info')}}",
+                                                                "dynamicPropertyPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "minHeight": 400,
+                                                        "widgetId": "miwxvg38us",
+                                                        "renderMode": "CANVAS",
+                                                        "isLoading": false,
+                                                        "parentColumnSpace": 1,
+                                                        "parentRowSpace": 1,
+                                                        "leftColumn": 0,
+                                                        "rightColumn": 312,
+                                                        "topRow": 0,
+                                                        "bottomRow": 390,
+                                                        "parentId": "vhz11felie",
+                                                        "dynamicBindingPathList": [],
+                                                        "dynamicTriggerPathList": []
+                                                    }
+                                                ],
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "defaultTab"
+                                                    }
+                                                ],
+                                                "dynamicTriggerPathList": []
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "backgroundColor": "#FFFFFF",
+                                                "widgetName": "Container1",
+                                                "containerStyle": "card",
+                                                "borderColor": "#f1f3f4",
+                                                "borderWidth": "2",
+                                                "borderRadius": "0",
+                                                "boxShadow": "NONE",
+                                                "animateLoading": true,
+                                                "children": [
+                                                    {
+                                                        "isVisible": true,
+                                                        "widgetName": "Canvas1",
+                                                        "version": 1,
+                                                        "detachFromLayout": true,
+                                                        "type": "CANVAS_WIDGET",
+                                                        "hideCard": true,
+                                                        "displayName": "Canvas",
+                                                        "key": "v5jun85v4h",
+                                                        "containerStyle": "none",
+                                                        "canExtend": false,
+                                                        "children": [
+                                                            {
+                                                                "isVisible": true,
+                                                                "shouldScrollContents": false,
+                                                                "widgetName": "FileManager1",
+                                                                "onClick": "{{storeValue('image',FileManager1.value)}}",
+                                                                "token": "1",
+                                                                "url": "",
+                                                                "typeImage": true,
+                                                                "value": "",
+                                                                "classStyle": "",
+                                                                "apiImgUrlList": "{{main.env.nr}}/fm/list/files",
+                                                                "apiImgUrlRename": "{{main.env.nr}}/fm/rename/files",
+                                                                "apiImgUrlRemove": "{{main.env.nr}}/fm/remove/files",
+                                                                "apiImgUrlUpload": "{{main.env.nr}}/fm/upload/files",
+                                                                "apiImgUrlNewFolder": "",
+                                                                "apiFileUrlList": "",
+                                                                "apiFileUrlRename": "",
+                                                                "apiFileUrlRemove": "",
+                                                                "apiFileUrlUpload": "",
+                                                                "apiFileUrlNewFolder": "",
+                                                                "type": "FILE_MANAGER",
+                                                                "hideCard": false,
+                                                                "displayName": "FileManager",
+                                                                "key": "9s41t3ut10",
+                                                                "iconSVG": "/static/media/icon.8e416de5.svg",
+                                                                "widgetId": "hq63gcj16v",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 17.74462890625,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 0,
+                                                                "rightColumn": 63,
+                                                                "topRow": 0,
+                                                                "bottomRow": 60,
+                                                                "parentId": "lf55a9zl3j",
+                                                                "dynamicBindingPathList": [
+                                                                    {
+                                                                        "key": "apiImgUrlList"
+                                                                    },
+                                                                    {
+                                                                        "key": "apiImgUrlRemove"
+                                                                    },
+                                                                    {
+                                                                        "key": "apiImgUrlUpload"
+                                                                    },
+                                                                    {
+                                                                        "key": "apiImgUrlRename"
+                                                                    }
+                                                                ],
+                                                                "dynamicTriggerPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "minHeight": 400,
+                                                        "widgetId": "lf55a9zl3j",
+                                                        "renderMode": "CANVAS",
+                                                        "isLoading": false,
+                                                        "parentColumnSpace": 1,
+                                                        "parentRowSpace": 1,
+                                                        "leftColumn": 0,
+                                                        "rightColumn": 377.25,
+                                                        "topRow": 0,
+                                                        "bottomRow": 620,
+                                                        "parentId": "4bse7bezyh"
+                                                    }
+                                                ],
+                                                "version": 1,
+                                                "classStyle": "",
+                                                "type": "CONTAINER_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Container",
+                                                "key": "gqdydat2op",
+                                                "iconSVG": "/static/media/icon.1977dca3.svg",
+                                                "isCanvas": true,
+                                                "widgetId": "4bse7bezyh",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 15.71875,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 38,
+                                                "topRow": 9,
+                                                "bottomRow": 72,
+                                                "parentId": "9k4sswbcrk",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": []
+                                            }
+                                        ],
+                                        "minHeight": 400,
+                                        "widgetId": "9k4sswbcrk",
+                                        "renderMode": "CANVAS",
+                                        "isLoading": false,
+                                        "parentColumnSpace": 1,
+                                        "parentRowSpace": 1,
+                                        "leftColumn": 0,
+                                        "rightColumn": 319.5,
+                                        "topRow": 0,
+                                        "bottomRow": 740,
+                                        "parentId": "9kr4quakna"
+                                    }
+                                ],
+                                "version": 1,
+                                "classStyle": "menu_section",
+                                "type": "CONTAINER_WIDGET",
+                                "hideCard": false,
+                                "displayName": "Container",
+                                "key": "f9i6ch94cg",
+                                "iconSVG": "/static/media/icon.1977dca3.svg",
+                                "isCanvas": true,
+                                "widgetId": "9kr4quakna",
+                                "renderMode": "CANVAS",
+                                "isLoading": false,
+                                "parentColumnSpace": 13.3125,
+                                "parentRowSpace": 10,
+                                "leftColumn": 0,
+                                "rightColumn": 64,
+                                "topRow": 0,
+                                "bottomRow": 75,
+                                "parentId": "0",
+                                "dynamicBindingPathList": [],
+                                "dynamicTriggerPathList": []
+                            }
+                        ],
+                        "snapRows": 102,
+                        "containerStyle": "none",
+                        "canExtend": true,
+                        "version": 57
+                    },
+                    "widgetNames": [
+                        "MainContainer",
+                        "Container2",
+                        "Canvas4",
+                        "Text1",
+                        "Divider1",
+                        "Tabs1",
+                        "Canvas2",
+                        "Image1",
+                        "IconButton1",
+                        "Canvas3",
+                        "Video1",
+                        "IconButton2",
+                        "Container1",
+                        "Canvas1",
+                        "FileManager1"
+                    ],
+                    "deleted": false,
+                    "policies": [],
+                    "layoutOnLoadActions": [
+                        []
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ]
+                }
+            ]
+        },
+        "createdAt": "2023-07-04T16:21:02.690Z",
+        "updatedAt": "2023-07-04T16:21:02.690Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": []
+            }
+        ]
+    }
+]

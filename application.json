@@ -1,0 +1,51 @@
+{
+    "_id": "64a4460ba6c255e608b0f64a",
+    "name": "uieditor-9030",
+    "slug": "uieditor-9030",
+    "organizationId": "Org",
+    "isPublic": false,
+    "isMenu": false,
+    "isShowPlatformTag": true,
+    "createdAt": "2023-07-04T16:17:15.145Z",
+    "updatedAt": "2023-07-04T16:17:15.145Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "Media actions",
+            "isDefault": true
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "global_setting": {
+        "css": "/css"
+    },
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-tech/ubos-template-file-manager-UI",
+        "defaultApplicationId": "uieditor-9030",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-tech/ubos-template-file-manager-UI.git",
+        "repoName": "ubos-template-file-manager-UI"
+    }
+}
