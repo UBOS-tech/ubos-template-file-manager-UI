@@ -129,7 +129,7 @@
                                                     }
                                                 },
                                                 "shouldShowTabs": false,
-                                                "defaultTab": "{{main.store.image.includes('.png') ? 'image' : main.store.image.includes('.jpeg') ? 'image' : main.store.image.includes('.svg') ? 'image' :main.store.image.includes('.svg') ? 'image' : 'video'}}",
+                                                "defaultTab": "{{main.store.image.includes('.png') ? 'image' : main.store.image.includes('.jpeg') ? 'image' : \nmain.store.image.includes('.jpg') ? 'image' : \nmain.store.image.includes('.svg') ? 'image' :main.store.image.includes('.svg') ? 'image' : 'video'}}",
                                                 "version": 3,
                                                 "type": "TABS_WIDGET",
                                                 "hideCard": false,
